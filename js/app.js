@@ -105,10 +105,10 @@ var App = {
         var max = Math.max(science, biological, humanities);
         if (max == science) {
             container.append("<h5 style='text-align: center'>Você parece ter bastante aptidão para as <b>Ciências Exatas. Confira alguns cursos que a <a href=\"https://fadesa.edu.br/todososcursos/\" target=\"_blank\" data-transition=\"turn\">FADESA</a> oferece nesta área: </h5>");
-            container.append("<h5 style='text-align: center'>Análise e Desenvolvimento de Sistemas</h5>");
+            container.append("<h5 style='text-align: center'>Análise e Desenvolvimento de Sistemas, Administração e Ciências Contábeis.</h5>");
         } else if (max == humanities) {
             container.append("<h5 style='text-align: center'>Você parece ter bastante aptidão para as <b>Ciências Humanas. Confira alguns cursos que a <a href=\"https://fadesa.edu.br/todososcursos/\" target=\"_blank\" data-transition=\"turn\">FADESA</a> oferece nesta área: </h5>");
-            container.append("<h5 style='text-align: center'>Administração, Ciências Contábeis, Direito, Pedagogia, Psicologia</h5>");
+            container.append("<h5 style='text-align: center'>Direito, Pedagogia e Psicologia.</h5>");
         } else if (max == biological) {
             container.append("<h5 style='text-align: center'>Você parece ter bastante aptidão para as <b>Ciências Biológicas. Confira alguns cursos que a <a href=\"https://fadesa.edu.br/todososcursos/\" target=\"_blank\" data-transition=\"turn\">FADESA</a> oferece nesta área: </h5>");
             container.append("<h5 style='text-align: center'>Educação Física, Enfermagem, Nutrição, Odontologia</h5>");
